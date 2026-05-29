@@ -13,9 +13,4 @@ Process:
 
 - Processor: AppPkgCreator
   Arguments:
-    app_path: '%destination_path%ProfileCreator.app'
-
-- Processor: PathDeleter
-  Arguments:
-    path_list:
-    - '%RECIPE_CACHE_DIR%/Applications'
+    app_path: '%pathname%/*.app'
